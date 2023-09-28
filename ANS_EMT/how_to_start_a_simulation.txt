@@ -1,0 +1,11 @@
+To start a simulation in Simulink the following steps should be carried out:
+
+1. Choose whether you want to run a simulation for shor-term OR long-term voltage stability
+2. Open the corresponding simulink model "ANS_GFM"
+3. Run the corresponding "init_ANS_GFM" script. Please make sure that you are on the highest 
+   visible level of the simulink model. Otherwise an error could show up.
+4. Now the user has the choice to run a single simulation or multiple simulations in parallel.
+  4.1 Single simulation: just run the model in simulink (make sure to activate the needed scopes to inspect the results)
+  4.2 Multiple simultions: run the corresponding script "parallel_simulations" (here it is good to deactive all scopes to accelerate the simulations)
+
+More comments can be found in the corresponding scripts.

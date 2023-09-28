@@ -1,0 +1,18 @@
+The folder structure is as follows:
+
+grid: contains the ANS grid model
+lines: contains line models, like simple transmission lines and transformers
+nodes: contains node models, which are here mainly the GFM converters, loads and auxillary nodes as short-circuits
+operationpoint: includes the scripts to calculate a load flow for finding an equilibrium with subsequent initialization of the dynamic model
+
+Files:
+
+run_simulations.jl: Runs a simulation (building and initialising the model first) and plotting the result.
+
+stability_limit.jl: exmaple of how to run mutiple simulations wiht subsequent determination of the stability limit
+
+include_custom_nodes_lines_utilities.jl:  includes the files in the above mentioned folders
+
+utility_functions.jl: contains some auxillary functions for modelling and simulation
+
+

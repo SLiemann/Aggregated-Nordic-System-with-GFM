@@ -1,0 +1,11 @@
+To run the ANS in PowerDynamics please carry out the following steps:
+
+(0. install Julia and IDE, e.g. Visual Studio Code)
+1. install all relevent Julia packages (see necessary_packages.txt; list might be incomplete)
+2. run the script (or only parts of it) run_simulations.jl 
+   The script should include all necessary packages and additional models for PowerDynamics.jl which are needed for the simulation.
+ 
+In case a short- or long-term simulation shall be carried out, just change the simulation time and corresponding parameters in the file ANS_GFM_phasor_simulation.jl
+
+
+There are more comments in the scripts.

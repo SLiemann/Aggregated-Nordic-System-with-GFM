@@ -1,0 +1,19 @@
+The following packages are needed at least for running a simulatioin.
+
+PowerDynamics.jl
+DifferentialEquations.jl
+Plots.jl
+DataFrames.jl
+Graphs.jl
+Roots.jl
+IfElse.jl v0.1.1
+
+They were run with their following releases (with Julia Version 1.9.0 (2023-05-07)):
+
+PowerDynamics.jl v3.1.4
+DifferentialEquations v7.6.0
+Plots.jl v1.38.14
+DataFrames.jl v1.5.0
+Graphs.jl  v1.8.0
+Roots.jl v2.0.17
+IfElse.jl v0.1.1

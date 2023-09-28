@@ -8,7 +8,7 @@ The models and code provided here can be used, shared and modified, but without 
 In case you want to use these models for research, please have a look at the citation section below. 
 The converter models where mainly taken from: https://github.com/ATayebi/GridFormingConverters
 
-For further information do not hesitate to contact us: sebastian.liemann (at) tu-dortmund.de
+For further information or if you encounter some problems do not hesitate to contact us: sebastian.liemann (at) tu-dortmund.de
 
 ## Models
 

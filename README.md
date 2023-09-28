@@ -23,9 +23,9 @@ All files described here can be found in the folder ANS_EMT. It also contains in
 |  File | Description    |
 |---|---|
 |  **ANS_GFM_short_term.slx** | EMT Simulink implementation of the ANS for short-term voltage stability analyses.     |
-|  **ANS_GFM_longt_term.slx**  |  contains the same grid as for the shor-term analyses, but with modifications according to the detection of instability. |
+|  **ANS_GFM_long_term.slx**  |  contains the same grid as for the shor-term analyses, but with modifications according to the detection of instability. |
 | **init_ANS_GFM_short_term.m**  |  contains the code for the initialisation of the short-term model   |
-|  **init_ANS_GFM_short_term.m** | contains the code for the initialisation of the long-term model (with some parameter adaptions)  |
+|  **init_ANS_GFM_lomg_term.m** | contains the code for the initialisation of the long-term model (with some parameter adaptions)  |
 |  **parallel_simulations_short_term.m** | contains the code for parallelising the simulations and deriving the short-term stability limit plots in the paper|
 |  **parallel_simulations_long_term.m** | contains the code for parallelising the long-term simulations  |
 

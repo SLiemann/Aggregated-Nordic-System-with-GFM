@@ -5,7 +5,7 @@ This repository contains the Simulink and PowerDynamics.jl models which are used
 S. Liemann, C. Rehtanz, "Voltage Stability Analysis of Grid-Forming Converters with Current Limitation", handed in for the PSCC 2024.
 
 The models and code provided here can be used, shared and modified, but without any warranty.
-In case you want to use these model for research, please have a look at the citation section below. 
+In case you want to use these models for research, please have a look at the citation section below. 
 The converter models where mainly taken from: https://github.com/ATayebi/GridFormingConverters
 
 For further information do not hesitate to contact us: sebastian.liemann (at) tu-dortmund.de
@@ -13,7 +13,7 @@ For further information do not hesitate to contact us: sebastian.liemann (at) tu
 ## Models
 
 In the above paper an aggregated version of the Nordic Test System (see https://ieeexplore.ieee.org/document/9018172 for the original implementation) is derived for voltage stability analyses.
-The idea is to have a dynamic grid model that captures the main voltage dynamics and stability properties, but is much more computionally efficient, e.g. for acceleration of large-sampling studies. 
+The idea is to have a grid model that captures the main voltage dynamics and stability properties, but is much more computionally efficient, e.g. for the acceleration of large-sampling studies. 
 Since the analysis in the paper is divided into short-term/long-term voltage stability as well as EMT/phasor, this is also reflected by the provided files.
 
 ### EMT implementation of the ANS

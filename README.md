@@ -1,4 +1,4 @@
-![NordicLTVS](https://github.com/SLiemann/Aggregated-Nordic-System-with-GFM/assets/78535748/6819de0c-ba4a-4996-bd42-e1f36f0a1472)# Aggregated Nordic System (ANS) with Grid-Forming Converters
+# Aggregated Nordic System (ANS) with Grid-Forming Converters
 
 This repository contains the Simulink and PowerDynamics.jl models which are used in the paper:
 

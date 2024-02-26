@@ -16,6 +16,8 @@ In the above paper an aggregated version of the Nordic Test System (see https://
 The idea is to have a grid model that captures the main voltage dynamics and stability properties, but is much more computionally efficient, e.g. for the acceleration of large-sampling studies. 
 Since the analysis in the paper is divided into short-term/long-term voltage stability as well as EMT/phasor, this is also reflected by the provided files.
 
+[NordicLTVS_v2.pdf](https://github.com/SLiemann/Aggregated-Nordic-System-with-GFM/files/14403078/NordicLTVS_v2.pdf)
+
 ### EMT implementation of the ANS
 
 All files described here can be found in the folder ANS_EMT. It also contains instructions on how to start a simulation.
@@ -36,7 +38,7 @@ Auxillary files:
 | **DetermineBoundary.m**| script to get the stability limit from the simulations|
 | **next_ind.m**| internal function for DetermineBoundary.m|
 | **calc_saturation.m**| function to calculate field current saturation for synchronous machines (not used here)|
- 
+
 
 ### Phasor (RMS) implementation of the ANS
 

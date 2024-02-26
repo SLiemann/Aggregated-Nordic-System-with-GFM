@@ -16,6 +16,9 @@ In the above paper an aggregated version of the Nordic Test System (see https://
 The idea is to have a grid model that captures the main voltage dynamics and stability properties, but is much more computionally efficient, e.g. for the acceleration of large-sampling studies. 
 Since the analysis in the paper is divided into short-term/long-term voltage stability as well as EMT/phasor, this is also reflected by the provided files.
 
+![ANS_github_v2](https://github.com/SLiemann/Aggregated-Nordic-System-with-GFM/assets/78535748/ff73b87c-19bf-4510-9987-0b8eccd6ef09)
+
+
 
 ### EMT implementation of the ANS
 
